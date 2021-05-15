@@ -1,0 +1,120 @@
+h1{
+    background-color: pink;
+    color: hsl(0, 0%, 0%);
+    margin-left: 30px ;
+    padding: 30px;
+    
+
+
+}
+/* *{
+    border: solid;
+} */
+h2{
+    color: indigo;
+    font-size: 100;
+}
+
+p{
+    color: darkred;
+    font-size: 100;
+    
+}
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+.header *{
+    border: solid midnightblue;
+}
+.header{
+    background: mediumspringgreen;
+    display: flex;
+    justify-content: space-between;
+}
+.dis{
+    background: grey;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+   
+}
+.dis1{
+    background: grey;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+ 
+}
+.grid{
+   
+    background:rgb(1,111,112);
+    border:solid silver;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin:10px;
+    padding:5px;
+    
+}
+.item img{
+   
+    
+    border:solid silver;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border-radius: 50px;
+    margin: 10px;
+    padding: 5px;
+}
+.footer{
+
+    border:solid silver;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    background: grey;
+}
+a:link{
+    color: darkcyan;
+}
+
+a:visited{
+    color: palevioletred
+}
+
+.menu{
+    font-size: larger;
+    margin-right: 30px;
+    padding: 20px;
+    
+}
+.menu a{
+    margin: 20px;
+    padding: 5px;
+    
+}
+.item{
+
+    position:relative;
+   
+    
+}
+.item p{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    opacity:0;
+}
+
+.item:hover p{
+    opacity: 1;
+     
+}
+
+.item:hover img{
+    opacity: o.33;
+}
